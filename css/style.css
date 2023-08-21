@@ -15,4 +15,9 @@ p {
 #para {
     text-align: justify;
     color: rgb(56, 5, 104);
+    line-height: 20px;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
 }
