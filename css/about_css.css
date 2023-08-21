@@ -1,12 +1,22 @@
+body {
+    background-image: url(bgimage.jpeg);
+    background-size: cover;
+}
+
 h2 {
-    color: red;
-    background-color: aliceblue;
+    color: #EDB400;
+    border: 5px solid cyan;
+    text-align: center;
 }
 
 p {
-    color: pink;
+    color: #FFC200;
 }
 
-p {
-    color: green;
+a {
+    color: aliceblue;
+}
+
+li {
+    display: inline-block;
 }
