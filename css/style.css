@@ -1,8 +1,18 @@
 h2 {
-    color: red;
-    background-color: aliceblue;
+    color: rgb(27, 3, 180);
 }
 
 p {
     color: green;
+}
+
+.header {
+    border: 3px dashed rgb(30, 86, 86);
+    background-color: rgba(39, 111, 0, 0.2);
+    text-align: center;
+}
+
+#para {
+    text-align: justify;
+    color: rgb(56, 5, 104);
 }
