@@ -20,4 +20,5 @@ p {
     font-weight: lighter;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
+    cursor: pointer;
 }
