@@ -18,3 +18,8 @@ document.querySelectorAll("li");
 document.getElementById("someId").getAttribute("width");
 document.getElementsByTagName("img")[1].setAttribute("height", "100");
 
+document.getElementById("someId").style.width = "100";
+document.getElementById("someId").className = "newClass";
+document.getElementById("someId").classList.add("newClass");
+document.getElementById("someId").classList.remove("newClass");
+document.getElementById("someId").classList.toggle("newClass");
