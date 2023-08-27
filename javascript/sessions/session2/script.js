@@ -16,13 +16,18 @@ var button = document.getElementById("add-item");
 var todoList = document.querySelector("ul");
 
 function isValidInput() {
-    console.log(input.value.length);
     return input.value.length > 0;
+}
+
+function toggleItemStatus(event) {
+    event.target.classList.toggle("done");
 }
 
 function addItem() {
     var listItem = document.createElement("li");
+    listItem.classList.add("item");
     listItem.appendChild(document.createTextNode(input.value));
+    listItem.addEventListener("click", toggleItemStatus);
     todoList.appendChild(listItem);
     input.value = "";
 }
@@ -41,3 +46,4 @@ function addItemOnAKeyPress(event) {
 
 input.addEventListener("keypress", addItemOnAKeyPress);
 button.addEventListener("click", addItemOnAClick);
+
